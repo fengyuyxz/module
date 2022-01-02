@@ -2,7 +2,7 @@
 moduleCenter是路由组件。
 BusinessA、BusinessB都是各业务组件。
 Dome工程为开发中的主工程，主工程只是一个壳子，使用什么功能组件就依赖什么。
-xxx.podspec文件中未依赖moduleCenter，搭建好自己是有服务后，应该在xxx.podspec中依赖 如
+xxx.podspec文件中未依赖moduleCenter，搭建好私服后，应该在xxx.podspec中依赖 如
 s.dependency 'ModuleCenter'
 
 业务组件注册路由时，实现ModuleProperty，ModuleCenterManager用于管理和注册的路由映射关系。
